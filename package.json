@@ -1,0 +1,33 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "author": "wassim houiat",
+  "license": "ISC",
+  "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cloudinary": "^1.30.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.2",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "stripe": "^10.4.0",
+    "validator": "^13.7.0"
+  }
+}
